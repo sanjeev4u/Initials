@@ -1,0 +1,15 @@
+public class assign  
+{
+	public static void main(String[] args) 
+	{
+		int x;
+		System.out.println("Enters the numbers u want to take as input");
+		Scanner reader = new Scanner(System.in);
+		int n = reader.nextInt();
+		int m = reader.nextInt();
+		x=m+n;
+		int z;
+		z=x*x;
+		System.out.println(z);
+	}
+}
