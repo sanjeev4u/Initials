@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assgn 2</title>
+		<style>
+		body{
+			height:2000px;
+			width:100%;
+			overflow-x:hidden;
+		}
+			#navigationBar{
+					width:100%;
+					height:80px;
+					background-color:black;
+					position: fixed;
+					top: 0px;
+					left: 0px;
+					z-index:5;
+			}
+			#logoContainer{
+					 margin-left: 0px;
+					 margin-bottom: 11px;
+			}
+			#menubar{
+					/*float:left;*/
+					position:absolute;
+					right:35px;
+					top:34%;
+					font-size: 20px;
+			}
+			#menubar a{
+					background-color:cadetblue;
+					padding:10px;
+			}
+			.menutab{
+					color:white;
+					margin-left:20px;
+			}
+			.subdiv{
+					width:100%;
+					height:600px;
+					border: 0px solid red;
+			}
+			#mainContainer{
+					margin-top:81px;
+					position:absolute;
+					left:0px;
+					top:0px;
+					width: 100%;
+					z-index:2;
+			}
+		</style>
+	</head>
+	<body>
+		<nav id="navigationBar">
+			<div id="logoContainer">
+				<img src="IMG-20170905-WA0088.jpg" width= "8%" height="79px">
+			</div>
+			<div id="menubar" font-size: 20px;>
+				<a class="menutab">About me</a>
+				<a class="menutab">Eduaction</a>
+				<a class="menutab">Skills</a>
+				<a class="menutab">Conatct us</a>
+				<a class="menutab">Hobbies</a>
+			</div>
+		</nav>
+		<div id="mainContainer">
+			<div id="AboutUs" class="subdiv" style = "background : #a29cb3;">
+				<h1 align="center"style="color:#eaf37b">Hello, this is Sanjeev !</h1>
+				<h4 style="font-size: 22px;">I hail from one of the steel cities of India i.e Jamshedpur.I am Pursuing my B.Tech From Gandhi Rngineering College , Bhubaneswar under Biju Pattnaik University of Technology.I have taken my " All India Senior School Certificate Examination " from M.B.S Public School , Bhubaneswar and my "All India Secondary School Examination from Kerala Public School , Jamshedpur.I have five members in my family including me.In my leisure time , I like watching Sci-fi movies,listening soft music. I beleive myself as an optimistic and amible person. I am very Enthusiastic in my work and adaptibility to any situation is one of feature.I am not that pretty good at public speaking however I am  improveing this by taking the initiatives like volunteering various speaking events and also taking suggestions from the people who are good in speaking. At present,I am seeking for a job where I can nurture my skills to be an asset for an organization. I would like to see myself heading some national and international operations in a reputed organization like yours "</h4>
+			</div>
+			<div id="Education" class="subdiv" style="background : #b8e2ee;">
+				<table width="100%" style="border: 1px solid black;" height="600px">
+					<thead>
+						<tr>
+							<td>Qualification</td>
+							<td>Board/University</td>
+							<td>Year</td>
+							<td>Percentage</td>
+						</tr>
+					</thead>
+				</table>
+				<table class="listtable">
+					<tbody style = "font-size: 22px;">
+						<tr>
+							<td>B.Tech</td>
+							<td>BPUT</td>
+							<td>2014-18</td>
+							<td>7.49/10</td>
+						</tr>
+				</table>
+
+				<table class="listtable">
+						<tr>
+							<td>12<sup>th</sup></td>
+							<td >CBSE<br />M.B.S Public School</td>
+							<td>2014</td>
+							<td>64.6</td>
+						</tr>
+				</table>	
+				<table>
+						<tr>
+							<td>10thh</td>
+							<td>CBSE<br />KErala Public School</td>
+							<td>2012</td>
+							<td>68.4%</td>
+						<tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="Skills" class="subdiv" style = "background : #F8C471; ">
+				<ul style = "font-size: 22px;">
+					<li>C</li>
+					<li>C++</li>
+					<li>Java</li>
+					<li>DBMS</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+				</ul>
+			</div>
+			<div id = "Hobbies" class="subdiv" style = "background : #b4c2cb;">
+				<p>Watching Sci-fi Movies</p>
+				<p>Reading Technical blogs</p>
+				<p>Surfing Internet</p>
+			</div>
+			<div id="ContactUs" class="subdiv" style = "background : #f8cfa9;">
+				<p>Room NO.- 401,Hostel - 4, Gandhi Engineeering College,Bhubaneswar <br />PIN - 752054 <br />Contact No.- 8984634200</p>
+			</div>
+		</div>
+	</body>
+</html>

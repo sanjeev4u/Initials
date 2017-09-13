@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV</title>
+	<style>
+	
+		body{
+			 overflow-x: hidden;
+			font-family: sans-serif;
+		}
+	
+	  #navigationBar{
+			width:100%;
+			height:80px;
+			background-color:black;
+			position: fixed;
+			TOP: 0PX;
+			LEFT: 0PX;
+			display:inline-flex;
+			z-index:99;
+	  }
+	  
+	  #logoContainer{
+			margin-top:10px;
+			margin-left:50px;
+	  }
+	  .menutab{
+			color:white;
+			margin-left:20px;
+	  }
+	  
+	  #menubar{
+		position: absolute;
+		right: 35px;
+		top:34%;
+		font-size: 18px;
+		
+	  }
+	  
+	   #menubar a{
+	  
+			background-color: cadetblue;
+			padding:10px;
+			text-decoration: none;
+
+	  
+	  }
+	  
+	  .subdiv{
+	  
+			width:100%;
+			height:600px;
+			/*border:2px solid red;*/
+			
+			padding:20px;
+			
+			padding-top:90px;
+			
+			padding-right:40px;
+	  }
+	  
+	  #mainContainer{
+			margin-top: 80px;
+			position: absolute;
+			display: block;
+			width: 100%;
+			left: 0px;
+			top: 0px;
+			z-index:9;
+	  }
+	  
+	  
+	  footer{
+		width:100%;
+		height:80px;
+		background:black;
+		position:fixed;
+		left:0px;
+		bottom:0px;
+		z-index:99;
+		color:white;
+		
+		
+	  }
+	  
+	  footer div{
+			margin:10px;
+			margin-top:30px;
+			margin-left:50px;
+			
+	  }
+	  
+	  .subdiv span{
+		margin-left:45%;
+		font-size:35px;
+		font-weight:bold;
+		
+	  }
+	  
+	  .odd{
+		background:cadetblue;
+	  }
+	  
+	  .even{
+			background:indianred;
+	  }
+	  
+	  
+	  .odd span{
+		color:white;
+	  }
+	  
+	  .even span{
+		color:white;
+	  }
+	  
+	  .subdiv hr{
+			width:70%;
+	  }
+	  
+	  #logoContainer{
+			color:white;
+			font-size:32px;
+	  }
+	  
+	  #logoContainer div{
+				margin-top:10px;
+	  }
+	  
+	  #mypic{
+	  
+			height:200px;
+			width:200px;
+			background:white;
+			margin-left:20%;
+			margin-top:50px;
+			border-radius:100px;
+			background-image:url("deepak.jpg");
+			background-repeat: no-repeat;
+			background-position-x: -2px;
+			background-position-y: -102px;
+			background-size: 103%;
+			/*position:absolute;*/
+			
+	  }
+	  
+	  #aboutus{
+		/*display:inline-block;*/
+	  }
+	  
+	  
+	  #mydescription{
+			margin-top:39px;
+			font-size:20px;
+			color:white;
+			
+			
+	  }
+	  
+	  #aboutmeTable{
+			width:80%;
+			margin-left:9%;
+	  }
+	  
+	   #aboutmeTable td{
+			margin-right:40px;
+			padding-right:10%;
+			align-center;
+	  }
+	  
+	  
+	  #educationTable{
+			width:100%;
+			margin-left:40%;
+			margin-right:5%;
+	  }
+	  #educationTable1
+			table, th, td {
+			margin-right:80px;
+			padding-right:5%;
+			align-center;
+		
+	   	}	
+	 #border1 td{
+				border : 1px solid black;
+				text-align: center;
+	  }
+		
+	
+	</style>
+
+</head>
+<body>
+
+<nav id="navigationBar">
+		<div id="logoContainer"> 
+				<div>Deepak Kumar</div>
+		</div>
+		<div id="menubar"> 
+				<a class="menutab" href="#aboutus">About Me</a>
+				<a class="menutab" href="#education">Education</a>
+				<a class="menutab" href="#skills">Skills</a>
+				<a class="menutab" href="#hobbies">Hobbies</a>
+				<a class="menutab" href="#contactus">Contact Me</a>
+				
+		</div>
+		
+</nav>
+
+<div id="mainContainer">
+	<div id="aboutus" class="subdiv odd">
+			<span>About Me</span>
+			<hr />
+			
+			<table id="aboutmeTable">
+			
+				<tr>
+					<td>
+						<div id="mypic">
+						
+						</div>
+			
+					</td>
+					<td>
+						<div id="mydescription">
+								<p>
+					I hail from one of the steel cities of India i.e Jamshedpur.I am Pursuing my B.Tech From
+					Gandhi Rngineering College ,
+					Bhubaneswar under Biju Pattnaik
+					University of Technology.
+					
+				
+					</p>
+			
+				</div>
+			
+			</td></tr>
+			
+			</table>
+	
+	</div>
+	<div id="education" class="subdiv even">
+			<span>Education</span>
+			<hr />
+			<table id ="educationTable">
+			
+			<div id="educationTable1">
+			<table id="border1" width="100%"  style="height: 300px ; padding-left: 85px ; border-spacing: initial ; padding-right: 85px;">
+					<thead>
+						<tr style="font-size : 23px;">
+							<td>Qualification</td>
+							<td>Board/University</td>
+							<td>Year</td>
+							<td>Percentage</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr style="font-size : 23px;">
+							<td>B.Tech</td>
+							<td>BPUT</td>
+							<td>2014-18</td>
+							<td>7.12/10</td>
+						</tr>
+						<tr style="font-size : 23px;">
+							<td>Intermediate</td>
+							<td>CBSE</td>
+							<td>2014</td>
+							<td>%</td>
+						</tr>
+						<tr style="font-size : 23px;">
+							<td>Matriculation</td>
+							<td>CBSE</td>
+							<td>2012</td>
+							<td>7.6 CGPA</td>
+						<tr>
+					</tbody>
+				</table>
+			
+	</div>
+	<div id="skills" class="subdiv odd">
+				<span>Skills</span>
+				<hr />
+	</div>
+	<div id="hobbies" class="subdiv even">
+				<span>Hobbies</span>
+				<hr />
+	
+	</div>
+	<div id="contactus" class="subdiv odd">
+				<span>Contact US</span>
+				<hr />
+	
+	</div>
+</div>
+	
+<footer>
+	<div>Copyright @ 2017<a>www.graduit.in</a><div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+	<title>Sanjeev's First WebPage</title>
+	<body>
+
+	<h1 align = "center" style="color:blue;">Hello "Grad_U_IT"</h1>
+	<p id="First test" align = "left">I am enjoying doing this</p>
+	<p id="Testing">Its Interesting</p>
+	<p id="Secondtest" style="font-family : arial; color : RED;">Hello this is my first html page</p>
+	
+	<img src="https://2.gravatar.com/avatar/23cec864731889bcc3a0ffa2f1f4b785?s=128&d=mm&r=G"  alt="Hello Graduit">
+	<p>The above Pic is of mine</p>
+	
+	<h4>And now some animations</h4>
+	
+	<img   src="https://media.giphy.com/media/Lcx1BIYn47hra/giphy.gif" width="400" height="200" align="right" alt="Sorry unable to display">
+	<img   src="https://media.giphy.com/media/Lcx1BIYn47hra/giphy.gif" width="400" height="200" align="right" alt="Sorry unable to display">
+	<img   src="https://media.giphy.com/media/Lcx1BIYn47hra/giphy.gif" width="400" height="200" align="left" alt="Sorry unable to display">
+	
+	<embed src="videoplayback.mp4">
+	<noembed><img src="" alt="Alternative Media" ></noembed>
+	</embed>
+		</body>
+
+</head>
+</html>

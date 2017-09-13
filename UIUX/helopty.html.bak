@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+	<title>Assignment1_sanjeev</title>
+	<body background="C:\Users\Dell\Desktop\UIUX\the-inspiration-gallery.jpg">
+			<div id="image1" width="20%">
+				<img src="C:\Users\Dell\Desktop\UIUX\artificial-intelligence.jpg"  width="20%" height = "100" align="left" alt = "Hello">
+			</div>
+			
+			<div id="heading" align="Center"  width = "80%">
+				<h2 >Artificial Intelligence</h2>
+				<h3 >Hello world</h3>
+			</div>
+			<br />
+			
+			<div id="span_table1">
+				<table style = "border : 1px solid black;" align = "left" width="40%">
+					<tr>
+						<th style = "border : 1px solid black;">About</th>
+					</tr>
+  
+					 <tr>
+						<td>
+						<p align="left">Artificial intelligence is intelligence exhibited by machines, rather than humans or other animals. In computer science, the field of AI research defines itself as the study of<span style="color:red">"Intelligent agents"</span>: any device that perceives its environment and takes actions that maximize its chance of success at some goal.</p>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+			<div id="span_table2">
+				<table style = "border : 1px solid black;" align = "right"  width="60%">
+					<tr>
+						<th style = "border : 1px solid black;">Contents</th>
+					</tr>
+  
+					 <tr>
+						<td>
+							<ul>
+								<li>History</li>
+								<li>Goals</li>
+								<li>Approaches</li>
+								<li>Tools</li>
+							</ul>  
+						</td>
+					</tr>
+				</table>
+			</div>
+			<br />
+			<br />
+			<br />
+			<br />
+			<hr />
+			<hr />
+			<div id = "images2">
+				<img src="C:\Users\Dell\Desktop\UIUX\images1.jpg" width="12.5%" height = "100" align="left">
+				<img src="C:\Users\Dell\Desktop\UIUX\images2.jpg" width="12.5%" height = "100" align="left">
+				<img src="C:\Users\Dell\Desktop\UIUX\images3.jpg" width="12.5%" height = "100" align="left">
+				<img src="C:\Users\Dell\Desktop\UIUX\images4.jpg" width="12.5%" height = "100" align="left">
+			</div>
+			<div id = "text">
+						<p width="50%">   The overall research goal of artificial intelligence is to create technology that allows computers and machines to function in an intelligent manner.Early researchers developed algorithms that imitated step-by-step reasoning that humans use when they solve puzzles or make logical deductions.Many of the things people know take the form of "working assumptions". For example, if a bird comes up in conversation, people typically picture an animal that is fist sized, sings, and flies</p>
+			</div>
+			<div>
+				<marquee>
+					<h2>Thank You...</h2>
+				</marquee>
+			</div>
+	</body>
+
+
+	<style>
+		
+		h2 {
+			color: #1C86EE;
+			text-align: center;
+			}
+		p{
+			color: #a36f5e;
+			}
+		#heading{
+			background-color: #D7BDE2;	
+		}
+		#text{
+			background-color: #cccccc;
+		}
+		#span_table1{
+			background-color: #00ff00;					
+		}
+	</style>
+
+
+
+</head>
+<html>

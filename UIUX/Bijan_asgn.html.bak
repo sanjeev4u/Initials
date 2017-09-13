@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assgn 2</title>
+	<style>
+	
+		body{
+			 overflow-x: hidden;
+			font-family: sans-serif;
+		}
+	
+	  #navigationBar{
+			width:100%;
+			height:80px;
+			background-color:black;
+			position: fixed;
+			TOP: 0PX;
+			LEFT: 0PX;
+			display:inline-flex;
+			z-index:99;
+	  }
+	  
+	  #logoContainer{
+			margin-top:12px;
+			margin-left:50px;
+	  }
+	  .menutab{
+			color:white;
+			margin-left:20px;
+	  }
+	  
+	  #menubar{
+		position: absolute;
+		right: 35px;
+		top:34%;
+		font-size: 18px;
+		
+	  }
+	  
+	   #menubar a{
+	  
+			background-color: cadetblue;
+			padding:10px;
+			text-decoration: none;
+	  
+	  }
+	  
+	  .subdiv{
+	  
+			width:100%;
+			height:600px;
+			/*border:2px solid red;*/
+			
+			padding:20px;
+			
+			padding-top:90px;
+			
+			padding-right:40px;
+	  }
+	  
+	  #mainContainer{
+			margin-top: 80px;
+			position: absolute;
+			display: block;
+			width: 100%;
+			left: 0px;
+			top: 0px;
+			z-index:9;
+	  }
+	  
+	  
+	  footer{
+		width:100%;
+		height:80px;
+		background:black;
+		position:fixed;
+		left:0px;
+		bottom:0px;
+		z-index:99;
+		color:white;
+		
+		
+	  }
+	  
+	  footer div{
+			margin:10px;
+			margin-top:30px;
+			margin-left:50px;
+			
+	  }
+	  
+	  .subdiv span{
+		margin-left:45%;
+		font-size:35px;
+		font-weight:bold;
+		
+	  }
+	  
+	  .odd{
+		background:cadetblue;
+	  }
+	  
+	  .even{
+			background:indianred;
+	  }
+	  
+	  
+	  .odd span{
+		color:white;
+	  }
+	  
+	  .even span{
+		color:white;
+	  }
+	  
+	  .subdiv hr{
+			width:80%;
+	  }
+	  
+	  #logoContainer{
+			color:white;
+			font-size:32px;
+	  }
+	  
+	  #logoContainer div{
+				margin-top:10px;
+	  }
+	  
+	  #mypic{
+	  
+			height:200px;
+			width:200px;
+			background:white;
+			margin-left:20%;
+			margin-top:50px;
+			border-radius:100px;
+			background-image:url("IMG-20170905-WA0088.jpg");
+			background-repeat: no-repeat;
+			
+			background-position-x: 9px;
+			background-position-y: -2px;
+			background-size: 90%;
+			/*position:absolute;*/
+			
+	  }
+	  #skill_c{
+			width: 110px;
+			height: 110px;
+			background: white;
+			background-image: url(images.png);
+			border-radius: 94px;
+			background-repeat: no-repeat;
+			background-position-x: -46px;
+			background-position-y: -35px;
+			background-size: 183%;
+		}
+	   #skill_java{
+			width: 110px;
+			height: 110px;
+			background: white;
+			background-image: url("java.jpg");
+			border-radius: 94px;
+			background-repeat: no-repeat;
+			background-position-x: -39px;
+			background-position-y: -23px;
+			background-size: 168%
+	  }
+
+	   #skill_html{
+			width: 110px;
+			height: 110px;
+			background: white;
+			background-image: url("HTML5_Logo_512.png");
+			border-radius: 94px;
+			background-repeat: no-repeat;
+			background-position-x: 7px;
+			background-position-y: 9px;
+			background-size: 87%;
+	  }
+
+	   #skill_css{
+			width: 110px;
+			height: 110px;
+			background: white;
+			background-image: url("Logo-CSS3.jpg");
+			border-radius: 94px;
+			background-repeat: no-repeat;
+			background-position-x: -42px;
+			background-position-y: -8px;
+			background-size: 168%
+	  }
+	   #skill_js{
+			width: 110px;
+			height: 110px;
+			background: white;
+			background-image: url("javascript.png");
+			border-radius: 94px;
+			background-repeat: no-repeat;
+			background-position-x: 19px;
+			background-position-y: 20px;
+			background-size: 64%
+	  }
+	  #skill_cplus{
+			width: 110px;
+			height: 110px;
+			background: white;
+			background-image: url("cplusi.jpg");
+			border-radius: 94px;
+			background-repeat: no-repeat;
+			background-position-x: -1px;
+			background-position-y: -1px;
+			background-size: 104%
+	  }
+
+	   
+	  #aboutus{
+		/*display:inline-block;*/
+	  }
+	  
+	  
+	  #mydescription{
+			margin-top:39px;
+			font-size:20px;
+			color:white;
+			
+			
+	  }
+	  
+	  #aboutmeTable{
+			width:80%;
+			margin-left:9%;
+	  }
+	  
+	   #aboutmeTable td{
+			margin-right:10px;
+			padding-right:6%;
+	  }
+	  #skillimages{
+			width:97%;
+	  }
+	  #skillimages{
+			margin-left:auto;
+	  }
+	</style>
+
+</head>
+<body>
+
+<nav id="navigationBar">
+		<div id="logoContainer"> 
+				<div>Sanjeev Pradhan</div>
+		</div>
+		<div id="menubar"> 
+				<a class="menutab" href="#aboutus">About Me</a>
+				<a class="menutab" href="#education">Education</a>
+				<a class="menutab" href="#skills">Skills</a>
+				<a class="menutab" href="#hobbies">Hobbies</a>
+				<a class="menutab" href="#contactus">Contact Me</a>
+				
+		</div>
+		
+</nav>
+
+<div id="mainContainer">
+	<div id="aboutus" class="subdiv odd">
+			<span>About Me</span>
+			<hr />
+			
+			<table id="aboutmeTable">
+			
+				<tr>
+					<td>
+						<div id="mypic">
+						
+						</div>
+			
+					</td>
+					<td>
+						<div id="mydescription">
+								<p>
+					I hail from one of the steel cities of India i.e Jamshedpur.I am Pursuing my B.Tech From
+					Gandhi Rngineering College ,
+					Bhubaneswar under Biju Pattnaik
+					University of Technology.
+					I have taken my " All India
+					Senior School Certificate Examination " 
+					from M.B.S Public School , Bhubaneswar
+					and my "All India Secondary School
+					Examination from Kerala Public School ,
+					Jamshedpur.I have five members 
+					in my family including me.In my
+					leisure time , I like watching 
+					Sci-fi movies,listening soft music. 
+					I beleive myself as an optimistic 
+					and amible person. I am very Enthusiastic 
+					in my work and adaptibility to any situation
+					is one of feature.I am not that pretty good 
+					at public speaking however I am improveing
+					this by taking the initiatives like volunteering various speaking events and also taking suggestions from the people who are good in speaking. At present,I am seeking for a job where I can nurture my skills to be an asset for an organization. I would like to see myself heading some national and international operations in a reputed organization like yours "
+					</p>
+			
+				</div>
+			
+			</td></tr>
+			
+			</table>
+	
+	</div>
+	<div id="education" class="subdiv even">
+			<span>Education</span>
+			<hr />
+				
+			<table width="100%" style="height: 300px ; padding-left: 85px ; border-spacing: initial ; padding-right: 85px;">
+					<thead>
+						<tr style="font-size : 23px;">
+							<td>Qualification</td>
+							<td>Board/University</td>
+							<td>Year</td>
+							<td>Percentage</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr style="font-size : 23px;">
+							<td>B.Tech</td>
+							<td>BPUT<br />Gandhi Engineering College</td>
+							<td>2014-18</td>
+							<td>7.49/10</td>
+						</tr>
+						<tr style="font-size : 23px;">
+							<td>12<sup>th</sup></td>
+							<td>CBSE<br />M.B.S Public School</td>
+							<td>2014</td>
+							<td>64.6</td>
+						</tr>
+						<tr style="font-size : 23px;">
+							<td>10<sup>th</sup></td>
+							<td>CBSE<br />Kerala Public School</td>
+							<td>2012</td>
+							<td>68.4%</td>
+						<tr>
+					</tbody>
+				</table>
+
+	</div>
+	<div id="skills" class="subdiv odd">
+				<span>MY Skills</span>
+				<hr />
+				<br />
+					<table id="skillimages">
+						<tr>
+							<td>
+								<div id="skill_c">
+							
+								</div>
+							</td>
+
+							<td>
+								<div id="skill_java">
+	
+								</div>
+							</td>
+
+							<td>
+								<div id="skill_html">
+	
+								</div>
+							</td>
+
+							<td>
+								<div id="skill_css">
+	
+								</div>
+							</td>
+
+							<td>
+								<div id="skill_js">
+	
+								</div>
+							</td>
+							
+							<td>
+								<div id="skill_cplus">
+	
+								</div>
+							</td>
+						</tr>
+					</table>
+	</div>
+	<div id="hobbies" class="subdiv even">
+				<span>Hobbies</span>
+				<hr />
+	
+	</div>
+	<div id="contactus" class="subdiv odd">
+				<span>Contact US</span>
+				<hr />
+	
+	</div>
+</div>
+	
+<footer>
+	<div>Copyright @ 2017<a> Sanjeev's</a><div>
+</footer>
+</body>
+</html>
